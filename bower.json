@@ -1,0 +1,36 @@
+{
+    "name": "slim",
+    "version": "1.0.0",
+    "author": "ThemePixels",
+    "dependencies": {
+        "bootstrap": "v4.0.0",
+        "font-awesome": "fontawesome#^4.7.0",
+        "Ionicons": "ionicons#^2.0.1"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/css/*",
+                "dist/js/*"
+            ]
+        },
+        "font-awesome": {
+            "main": [
+                "fonts/*",
+                "css/font-awesome.css"
+            ],
+            "normalize": {
+                "fonts": "**/fonts/*.*"
+            }
+        },
+        "Ionicons": {
+            "main": [
+                "fonts/*",
+                "css/ionicons.css"
+            ],
+            "normalize": {
+                "fonts": "**/fonts/*.*"
+            }
+        }
+    }
+}
